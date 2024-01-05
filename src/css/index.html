@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/css/output.css" />
+    <link rel="stylesheet" href="/src/css/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
+    ></script>
+    <title>Portfólio</title>
+  </head>
+  <body
+    class="bg-black sm:bg-orange-600 md:bg-red-700 lg:bg-purple-300 xl:bg-green-500 2xl:to-blue-500"
+  >
+    <nav class="">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16 lg:flex-row-reverse">
+          <div class="flex items-center">
+            <a href="" class="flex-shirink-0">
+              <img
+                class="h-8 w-8 rounded-full"
+                src="/src/imagens/igor.png"
+                alt="Logo do portfólio"
+              />
+            </a>
+            <div class="  hidden md:block">
+              <div class="ml-10 flex items-baseline space-x-4">
+                <a
+                  href="#"
+                  class="hover:bg-red-700 text-white px-3 py-2 rounded-md text-sm font-medium transition duration-1000 ease-in-out"
+                  >Inicio</a
+                >
+                <a
+                  href="#"
+                  class="hover:bg-red-700 text-white px-3 py-2 rounded-md text-sm font-medium transition duration-1000 ease-in-out"
+                  >Sobre</a
+                >
+                <a
+                  href="#"
+                  class="hover:bg-red-700 text-white px-3 py-2 rounded-md text-sm font-medium transition duration-1000 ease-in-out"
+                  >Serviços</a
+                >
+                <a
+                  href="#"
+                  class="hover:bg-red-700 text-white px-3 py-2 rounded-md text-sm font-medium transition duration-1000 ease-in-out"
+                  >Contatos</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="-mr-2 flex md:hidden">
+            <button
+              id="Botao"
+              type="button"
+              class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:bg-gray-700 focus:text-white transition duration-1000 ease-in-out"
+              aria-label="menu"
+              aria-expanded="false"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="50"
+                height="50"
+                viewBox="0 0 50 50"
+              >
+                <polygon
+                  fill="#66e1ff"
+                  points="15,1.906 11.002,4.214 11,4.213 10.999,8.835 35,22.691 39,20.381 39,15.762"
+                ></polygon>
+                <polygon
+                  fill="#5ccae6"
+                  points="39,15.762 15,1.906 11,4.215 35,18.072"
+                ></polygon>
+                <polygon
+                  fill="#479db3"
+                  points="35,18.072 35,22.691 39,20.381 39,15.762"
+                ></polygon>
+                <polygon
+                  fill="#66e1ff"
+                  points="15,27.309 11.002,29.617 11,29.616 10.999,34.238 35,48.094 39,45.785 39,41.166"
+                ></polygon>
+                <polygon
+                  fill="#5ccae6"
+                  points="39,41.166 15,27.309 11,29.619 35,43.475"
+                ></polygon>
+                <polygon
+                  fill="#479db3"
+                  points="35,43.475 35,48.094 39,45.785 39,41.166"
+                ></polygon>
+                <polygon
+                  fill="#66e1ff"
+                  points="15,14.608 11.002,16.916 11,16.914 10.999,21.537 35,35.392 39,33.083 39,28.464"
+                ></polygon>
+                <polygon
+                  fill="#5ccae6"
+                  points="39,28.464 15,14.608 11,16.917 35,30.774"
+                ></polygon>
+                <polygon
+                  fill="#479db3"
+                  points="35,30.774 35,35.392 39,33.083 39,28.464"
+                ></polygon>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="menu" class="hidden md:hidden">
+        <div class="px-2 pt-2 pd-3 sm:px-3">
+          <a
+            href="#"
+            class="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium transition duration-1000 ease-in-out"
+            >Inicio</a
+          >
+          <a
+            href="#"
+            class="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium transition duration-1000 ease-in-out"
+            >Sobre Mim</a
+          >
+          <a
+            href="#"
+            class="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium transition duration-1000 ease-in-out"
+            >Serviços</a
+          >
+          <a
+            href="#"
+            class="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium transition duration-1000 ease-in-out"
+            >Contatos</a
+          >
+        </div>
+      </div>
+    </nav>
+    <div
+      class="inline-grid grid-cols-2 grid-rows gap-2 lg:grid lg:grid-cols-2 lg:grid-rows-2 lg:gap-2"
+    >
+      <div id="home" class="lg:bg-blue-500">
+        <p class="text-white text-3xl mx-5 my-2">Olá,Bem Vindo <h2 class="text-white text-3xl mx-5 my-2">Ao Meu WebSite</h2></p>
+      </div>
+      <div class="lg:bg-orange-500">
+        <img
+          class="lg:h-30 w-30 "
+          src="/src/imagens//igor2.png"
+          alt="Imagem Igor"
+        />
+      </div>
+
+      <div class="lg:bg-purple-600">
+        <button class="bg-green-400 mx-5 rounded-md text-base font-medium transition duration-1000 ease-in-out">
+          Baixar Currículo
+        </button>
+      </div>
+      <div
+        class=" grid grid-cols-2 gap-5 align lg:flex lg:h-28 lg:w-28"
+      >
+        <img class="-my-9" src="/src/imagens/insta.png" alt="" />
+        <img class="-my-9" src="/src/imagens/link.png" alt="" />
+      </div>
+    </div>
+    <div>
+      <img class="text-white" src="" alt="Separar as seções">
+    </div>
+    <!--Seção Sobre Mim-->
+    <div class="grid grid-cols-2 grid-rows-1 gap-2">
+      <div class="flex justify-center">
+        <div class="w-96 h-40">
+          <img src="/src/imagens/igor.png" alt="" />
+        </div>
+      </div>
+      <!--Storylling-->
+      <div class="bg-blue-500">
+
+  
+      </div>
+      <!--falar sobre mim-->
+      <div class="w-40 p-2 rounded-xl bg-gradient-to-r from-sky-500 to-indigo-500 text-justify">
+        <p>
+          <h3 class="text-center">SOBRE MIM</h3>
+          What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing
+          and typesetting industry. Lorem Ipsum has been the industry's standard
+          dummy text ever since the 1500s, when an unknown printer took a galley
+          of type and scrambled it to make a type specimen book.
+        </p>
+      </div>
+    </div>
+    <!--Fim Da seção Sobre Mim-->
+
+    <!--Inicio Da Seção Habilidades-->
+    <h1 class="text-white text-center"> Habilidades</h1>
+    <div class="grid grid-cols-12 grid-rows-3 gap-0 flex-wrap">
+      <div>
+        <img  class="ease-in duration-300" src="/src/imagens/boot.png" alt="" />
+      </div>
+      <div class="col-start-2 row-start-2">
+        <img src="/src/imagens/apache.png" alt="" />
+      </div>
+      <div class="col-start-3 row-start-1">
+        <img src="/src/imagens/c++.png" alt="" />
+      </div>
+      <div class="col-start-4 row-start-2">
+        <img src="/src/imagens/css.png" alt="" />
+      </div>
+      <div class="col-start-5 row-start-1">
+        <img src="/src/imagens/figma.png" alt="" />
+      </div>
+      <div class="col-start-6 row-start-2">
+        <img src="/src/imagens/html.png" alt="" />
+      </div>
+      <div class="col-start-7 row-start-1">
+        <img src="/src/imagens/icons8-devops-60.png" alt="" />
+      </div>
+      <div class="col-start-8 row-start-2">
+        <img src="/src/imagens/laravel.png" alt="" />
+      </div>
+      <div class="col-start-9 row-start-1">
+        <img src="/src/imagens/php.png" alt="" />
+      </div>
+      <div class="col-start-10 row-start-2">
+        <img src="/src/imagens/java.png" alt="" />
+      </div>
+      <div class="col-start-11 row-start-1">
+        <img src="/src/imagens/nginx.png" alt="" />
+      </div>
+      <div class="col-start-12 row-start-2">
+        <img src="/src/imagens/mariadb.png" alt="" />
+      </div>
+    </div>
+  </body>
+  <script src="/src/main.js"></script>
+</html>
