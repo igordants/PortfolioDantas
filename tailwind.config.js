@@ -6,10 +6,11 @@ module.exports = {
       spacing:{
         '128': '32px',
         '144': '36px',
-        
-      }
     },
+    inset:{
+      '17':'68px'
+    }
   },
   plugins: [],
+  }
 }
-
