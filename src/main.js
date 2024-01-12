@@ -7,7 +7,7 @@ const btn = document.getElementById("Botao")
 
         // Máquina de escrever na página HOME
         function typeWrite(elemento){
-            const textoArray = elemento.innerHTML.split('h2');
+            const textoArray = elemento.innerHTML.split('');
             elemento.innerHTML = '';
             textoArray.forEach((letra,i) => {
                 setTimeout(() => elemento.innerHTML += letra, 75 * i)
