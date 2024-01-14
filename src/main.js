@@ -13,7 +13,7 @@ const btn = document.getElementById("Botao")
                 setTimeout(() => elemento.innerHTML += letra, 75 * i)
             });
         }
-        const titulo = document.querySelector('');
+        const titulo = document.querySelector('h2');
         typeWrite(titulo);
         const textLoad = () => {
             setTimeout(() => {

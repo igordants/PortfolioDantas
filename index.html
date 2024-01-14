@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://github.com/igordants/PortfolioDantas/src/css/style.css" />
-    <link rel="stylesheet" href="https://github.com/igordants/PortfolioDantas/src/css/output.css" />
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://github.com/igordants/PortfolioDantas/src/css/style.css"/>
+    <link rel="stylesheet" href="https://github.com/igordants/PortfolioDantas/src/css/output.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Portfólio</title>
   </head>
   <body
@@ -130,7 +130,7 @@
     <div
       class="bg-gradient-to-r from-black from-10% via-teal-950 via-30% to-teal-950 to-90% inline-grid grid-cols-2 grid-rows gap-2 lg:grid-cols-2">
       <div class="text-white text-xl p-8 xl:text-center xl:my-80 " id="home">
-        <div class="text-base xl:text-3xl">
+        <div class="text-base xl:text-7xl">
             <h1>
           Olá,Bem Vindo
             </h1>
@@ -139,7 +139,7 @@
             <h2>Ao Meu WebSite</h2>
           </div>
         
-        <div class="flex xl:mx-44">
+        <div class="flex xl:mx-96">
           <a href="https://www.linkedin.com/in/igor-dantas-6191b4249/">
             <img class="transition ease-in-out delay-1  hover:-translate-y-1 hover:scale-110  duration-300" src="https://igordants.github.io/PortfolioDantas/src/imagens/linkedin.png" alt="ícone do Linkedin"/></a>
           <a href="https://github.com/igordants"
@@ -149,7 +149,8 @@
         </div>
       </div>
 
-      <div>
+      <div data-aos="fade-up"
+      data-aos-duration="3000">
         <img
           class="lg:h-30 w-30"
           src="https://igordants.github.io/PortfolioDantas/src/imagens/igor4.png"
@@ -159,8 +160,8 @@
     </div>
 
     <!--Seção Sobre Mim-->
-    <div class="relative flex flex-col items-center py-5">
-      <h1 class="text-4xl font-bold leading-tight dark:text-gray-300 shadow-[5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1),_25px_25px_rgba(0,_98,_90,_0.05)]"> 
+    <div data-aos="zoom-in-up" class="relative flex flex-col items-center py-5">
+      <h1 class="text-4xl xl:text-7xl font-bold leading-tight dark:text-gray-300 shadow-[5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1),_25px_25px_rgba(0,_98,_90,_0.05)]"> 
         Sobre Mim
       </h1>
       <div class="flex w-24 mt-1 mb-10 overflow-hidden rounded">
@@ -174,7 +175,7 @@
   </div>
 
     <!--falar sobre mim-->
-    <div class="container mx-auto px-8 py-8 ">
+    <div data-aos="zoom-in-up" class="container mx-auto px-8 py-8 ">
       <h6 class="font-bold mb-2 text-white"></h6>
       <div class="bg-white p-10 mx-auto rounded-lg  shadow-[0px_7px_32px_10px_#1a202c]">
         <div class=" flex flex-wrap text-justify text-xl xl:text-2xl ">
@@ -197,12 +198,14 @@
       </div>
     </div>
     <!--TimeLine--> 
-    <section class="items-center py-24  font-poppins ">
+    <section data-aos="fade-up"
+    data-aos-duration="3000" class="items-center py-24 font-poppins ">
       <div class="justify-center max-w-6xl px-4 py-4 mx-auto lg:py-8 md:px-6">
           <div class="max-w-xl mx-auto">
               <div class="text-center ">
                   <div class="relative flex flex-col items-center">
-                      <h1 class="text-4xl font-bold leading-tight dark:text-gray-300 shadow-[5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1),_25px_25px_rgba(0,_98,_90,_0.05)]"> Experiências
+                      <h1 class="text-4xl xl:text-7xl font-bold leading-tight dark:text-gray-300 shadow-[5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1),_25px_25px_rgba(0,_98,_90,_0.05)]"> 
+                        Experiências
                       </h1>
                       <div class="flex w-24 mt-1 mb-10 overflow-hidden rounded">
                           <div class="flex-1 h-2 bg-blue-200">
@@ -217,8 +220,6 @@
               </div>
           </div>
         </div>
-
-            </div>
             <div class="flex flex-col justify-center ">
                 <div class="w-full px-4 mx-auto lg:max-w-5xl ">
                     <div class="relative">
@@ -390,8 +391,11 @@
 
     <!--Inicio Da Seção Habilidades-->
     
-    <div class="relative flex flex-col items-center">
-      <h1 class="text-4xl font-bold leading-tight dark:text-gray-300 shadow-[5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1),_25px_25px_rgba(0,_98,_90,_0.05)]"> Habilidades
+    <div data-aos="fade-right"
+    data-aos-offset="300"
+    data-aos-easing="ease-in-sine" class="relative flex flex-col items-center">
+      <h1 class="text-4xl xl:text-7xl font-bold leading-tight dark:text-gray-300 shadow-[5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1),_25px_25px_rgba(0,_98,_90,_0.05)]"> 
+        Habilidades
       </h1>
       <div class="flex w-24 mt-1 mb-10 overflow-hidden rounded">
           <div class="flex-1 h-2 bg-blue-200">
@@ -402,7 +406,7 @@
           </div>
       </div>
   </div>
-    <div class="grid grid-cols-4 gap-4 xl:p-20 xl:grid xl:grid-cols-12 xl:gap-4">
+    <div data-aos="fade-up-left" class="grid grid-cols-4 gap-4 xl:p-20 xl:grid xl:grid-cols-12 xl:gap-4">
       <div>
         <img
           class="transition ease-in-out delay-1  hover:-translate-y-1 hover:scale-110  duration-300"
@@ -446,7 +450,7 @@
     </div>
     <!-- Inicio da seção Serviços ( Componente Card) -->
     <div class="relative flex flex-col items-center">
-      <h1 class="text-4xl font-bold leading-tight dark:text-gray-300 shadow-[5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1),_25px_25px_rgba(0,_98,_90,_0.05)]"> 
+      <h1 class="text-4xl xl:text-7xl font-bold leading-tight dark:text-gray-300 shadow-[5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1),_25px_25px_rgba(0,_98,_90,_0.05)]"> 
         Serviços
       </h1>
       <div class="flex w-24 mt-1 mb-10 overflow-hidden rounded">
@@ -460,7 +464,7 @@
   </div>
     <div class="flex flex-wrap xl:grid grid-cols-3 xl:p-10">
       <!--Card 1-->
-      <div class="container mx-auto px-4 py-8">
+      <div data-aos="flip-down" class="container mx-auto px-4 py-8">
         <h6 class="font-bold mb-2 text-white"></h6>
         <div class="bg-white p-4 rounded-lg shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] overflow-hidden transition ease-in-out delay-1  hover:-translate-y-1 hover:scale-110  duration-300">
           <div class="w-full bg-gray-5-0 p-4 border-b border-gray-100 flex ">
@@ -477,7 +481,8 @@
           </div>
         </div>
       </div>
-      <div class="container mx-auto px-4 py-8 xl:text-2xl">
+      <!--Card 2-->
+      <div data-aos="flip-down" class="container mx-auto px-4 py-8 xl:text-2xl">
         <h6 class="font-bold mb-2 text-white"></h6>
         <div class="bg-white p-4 rounded-lg shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] overflow-hidden transition ease-in-out delay-1  hover:-translate-y-1 hover:scale-110  duration-300">
           <div class="w-full bg-gray-5-0 p-4 border-b border-gray-100 flex">
@@ -491,7 +496,8 @@
           </div>
         </div>
       </div>
-      <div class="container mx-auto px-4 py-8 xl:text-2xl">
+      <!--Card 3-->
+      <div data-aos="flip-down" class="container mx-auto px-4 py-8 xl:text-2xl">
         <h6 class="font-bold mb-2 text-white"></h6>
         <div class="bg-white p-4 rounded-lg shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] overflow-hidden transition ease-in-out delay-1  hover:-translate-y-1 hover:scale-110  duration-300">
           <div class="w-full bg-gray-5-0 p-4 border-b border-gray-100 flex">
@@ -508,7 +514,8 @@
           </div>
         </div>
       </div>
-      <div class="container mx-auto px-4 py-8 xl:text-2xl">
+      <!-- Card 4-->
+      <div data-aos="flip-down" class="container mx-auto px-4 py-8 xl:text-2xl">
         <h6 class="font-bold mb-2 text-white"></h6>
         <div class="bg-white p-4 rounded-lg shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] overflow-hidden transition ease-in-out delay-1  hover:-translate-y-1 hover:scale-110  duration-300">
           <div class="w-full bg-gray-5-0 p-4 border-b border-gray-100 flex">
@@ -523,7 +530,8 @@
           </div>
         </div>
       </div>
-      <div class="container mx-auto px-4 py-8 xl:text-2xl">
+      <!--Card 5-->
+      <div data-aos="flip-down" class="container mx-auto px-4 py-8 xl:text-2xl">
         <h6 class="font-bold mb-2 text-white"></h6>
         <div class="bg-white p-4 rounded-lg shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] overflow-hidden transition ease-in-out delay-1  hover:-translate-y-1 hover:scale-110  duration-300">
           <div class="w-full bg-gray-5-0 p-4 border-b border-gray-100 flex">
@@ -541,7 +549,8 @@
           </div>
         </div>
       </div>
-      <div class="container mx-auto px-4 py-8 xl:text-2xl">
+      <!--Card 6-->
+      <div data-aos="flip-down" class="container mx-auto px-4 py-8 xl:text-2xl">
         <h6 class="font-bold mb-2 text-white"></h6>
         <div class="bg-white p-4 rounded-lg shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] overflow-hidden transition ease-in-out delay-1  hover:-translate-y-1 hover:scale-110  duration-300">
           <div class="w-full bg-gray-5-0 p-4 border-b border-gray-100 flex">
@@ -557,7 +566,8 @@
           </div>
         </div>
       </div>
-      <div class="container mx-auto px-4 py-8 xl:text-2xl">
+      <!--Card 7-->
+      <div data-aos="flip-down" class="container mx-auto px-4 py-8 xl:text-2xl">
         <h6 class="font-bold mb-2 text-white"></h6>
         <div class="bg-white p-4 rounded-lg shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] overflow-hidden transition ease-in-out delay-1  hover:-translate-y-1 hover:scale-110  duration-300">
           <div class="w-full bg-gray-5-0 p-4 border-b border-gray-100 flex">
@@ -572,7 +582,8 @@
           </div>
         </div>
       </div>
-      <div class="container mx-auto px-8 py-8 xl:text-2xl">
+      <!--Card 8-->
+      <div data-aos="flip-down" class="container mx-auto px-8 py-8 xl:text-2xl">
         <h6 class="font-bold mb-2 text-white"></h6>
         <div class="bg-white p-4 rounded-lg shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] overflow-hidden transition ease-in-out delay-1  hover:-translate-y-1 hover:scale-110  duration-300">
           <div class="w-full bg-gray-5-0 p-4 border-b border-gray-100 flex">
@@ -600,4 +611,9 @@
     </div>
   </body>
   <script src="https://igordants.github.io/PortfolioDantas/src/main.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>
