@@ -13,19 +13,19 @@ const btn = document.getElementById("Botao")
                 setTimeout(() => elemento.innerHTML += letra, 75 * i)
             });
         }
-        const titulo = document.querySelector('h2');
-        typeWrite(titulo);
+        const titulo = document.querySelector('h2')
+        typeWrite(titulo)
         const textLoad = () => {
             setTimeout(() => {
                 titulo.tituloContent = 'Web Developer';
-            }, 0);
+            }, 0)
             setTimeout (() => {
                 titulo.tituloContent = 'Desenvolvedor Web';
-            }, 4000);
+            }, 4000)
             setTimeout (() => {
                 titulo.tituloContent = 'Desenvolvedor face';
-            },8000);
+            },8000)
         }
             textLoad();
-            setInterval(textLoad,12000);
+            setInterval(textLoad,12000)
     
